@@ -31,16 +31,22 @@ GitHub Pages可以作为服务器发布静态站点，包括User、Organization�
 
 ## User Pages 创建 ##
 个人user pages创建步骤如下：
+
 1. 创建repository，名称为**username.github.io**
 ![fb905862-40ef-11e6-865f-001eecd77418](https://raw.githubusercontent.com/wadou/wiki_pictures/master/fb905862-40ef-11e6-865f-001eecd77418.png)
+
 2. 设置，如图点击***Settings***
 ![36cb4874-4780-4867-9682-bd0b141ef9eb](https://raw.githubusercontent.com/wadou/wiki_pictures/master/36cb4874-4780-4867-9682-bd0b141ef9eb.png)
+
 3. 在GitHub Pages的设置项中点击***Launch automatic page generator***
 ![28e7dd0c-e180-4c17-914a-0ab48881c58d](https://raw.githubusercontent.com/wadou/wiki_pictures/master/28e7dd0c-e180-4c17-914a-0ab48881c58d.png)
+
 4. 直接点击***Continue to layouts***
 ![c6ad5879-43f0-4cc1-8d2c-22d0ac1395a2](https://raw.githubusercontent.com/wadou/wiki_pictures/master/c6ad5879-43f0-4cc1-8d2c-22d0ac1395a2.png)
+
 5. 选择主题，然后发布
 ![8338af88-53d9-4ab6-b76a-101ce268a0ef](https://raw.githubusercontent.com/wadou/wiki_pictures/master/8338af88-53d9-4ab6-b76a-101ce268a0ef.png)
+
 6. 登陆查看效果
 ![f1026f3e-9c32-4f78-9347-51a03c299caf](https://raw.githubusercontent.com/wadou/wiki_pictures/master/f1026f3e-9c32-4f78-9347-51a03c299caf.png)
 
@@ -53,4 +59,4 @@ GitHub Pages可以作为服务器发布静态站点，包括User、Organization�
 
 
 ## 参考 ##
-[1] https://help.github.com/categories/github-pages-basics/
+[1] <https://help.github.com/categories/github-pages-basics/>
