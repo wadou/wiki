@@ -38,7 +38,7 @@ GitHub Pages可以作为服务器发布静态站点，包括User、Organization�
 2. 设置，如图点击***Settings***
 ![36cb4874-4780-4867-9682-bd0b141ef9eb](https://raw.githubusercontent.com/wadou/wiki_pictures/master/36cb4874-4780-4867-9682-bd0b141ef9eb.png)
 
-3. 在GitHub Pages的设置项中点击***Launch automatic page generator***
+3. 在**GitHub Pages**的设置项中点击***Launch automatic page generator***
 ![28e7dd0c-e180-4c17-914a-0ab48881c58d](https://raw.githubusercontent.com/wadou/wiki_pictures/master/28e7dd0c-e180-4c17-914a-0ab48881c58d.png)
 
 4. 直接点击***Continue to layouts***
