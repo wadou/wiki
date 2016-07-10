@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="Stylesheet" type="text/css" href="/wiki/static/css/style.css">
+    <link rel="Stylesheet" type="text/css" href="/wiki/static/css/tango.css">
+    <link rel="shortcut icon" href="/wiki/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/wiki/favicon.ico" type="image/x-icon">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="Atom feed">
+    <title>virtualenv的使用 - </title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+
+  <body>
+    <div id="container">
+      
+<div id="header">
+  <div class="post-nav"><a href="/wiki/">Home</a>&nbsp;&#187;&nbsp;<a href="/wiki/#Python">Python</a>&nbsp;&#187;&nbsp;virtualenv的使用
+    <span class="updated">Updated&nbsp;
+      2016-07-03 09:52
+      
+    </span></div>
+</div>
+<div class="clearfix"></div>
+
+<div class="page_title">virtualenv的使用</div>
+
+  <div class="toc"><span class="toctitle">Table of Contents</span><ul>
+<li><a href="#virtualenv">virtualenv的使用</a><ul>
+<li><a href="#_1">简介</a></li>
+<li><a href="#_2">安装</a></li>
+<li><a href="#_3">查看帮助</a></li>
+<li><a href="#virtualenv_1">创建virtualenv环境</a></li>
+<li><a href="#virtualenv_2">激活virtualenv环境</a></li>
+<li><a href="#virtualenv_3">退出virtualenv环境</a></li>
+<li><a href="#pycharmvirtualenv">pycharm中指定virtualenv</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h1 id="virtualenv">virtualenv的使用</h1>
+<h2 id="_1">简介</h2>
+<p>virtualenv可以创建隔离的python环境，详情可参考<a href="https://virtualenv.pypa.io/en/latest/index.html">官方网站</a>。</p>
+<h2 id="_2">安装</h2>
+<p>这里使用pip安装，命令如下</p>
+<div class="hlcode"><pre><span class="n">pip</span> <span class="n">install</span> <span class="n">virtualenv</span>
+</pre></div>
+
+
+<p>安装过程如下图
+<img alt="83d27173-3d84-4ec3-9513-ea16b41dd365" src="https://raw.githubusercontent.com/wadou/wiki_pictures/master/83d27173-3d84-4ec3-9513-ea16b41dd365.png" /></p>
+<h2 id="_3">查看帮助</h2>
+<p>安装完成后，查看帮助命令如下</p>
+<div class="hlcode"><pre><span class="n">virtualenv</span> <span class="o">-</span><span class="n">h</span>
+</pre></div>
+
+
+<p>如下图
+<img alt="76536961-a9dc-467c-96d2-3bd0a525385c" src="https://raw.githubusercontent.com/wadou/wiki_pictures/master/76536961-a9dc-467c-96d2-3bd0a525385c.png" />
+这里关注如下几个参数
+<em> <strong>-p</strong> : 如果当前系统安装了多个版本的python环境，可以使用该参数指定virtualenv环境使用的python版本，帮助中可以看到默认的python版本。
+</em> <strong>--no-site-packages</strong> : 创建的virtualenv环境不使用系统python环境的安装包，这个选项是默认的。
+* <strong>--system-site-packages</strong> ：创建的virtualenv环境使用系统python环境的安装包。</p>
+<h2 id="virtualenv_1">创建virtualenv环境</h2>
+<p>以创建名称为test的隔离环境为例，使用命令如下</p>
+<div class="hlcode"><pre><span class="n">virtualenv</span> <span class="n">test</span>
+</pre></div>
+
+
+<p>如下图
+<img alt="b00d2eda-cdfa-4e14-a3c8-7749bdddff49" src="https://raw.githubusercontent.com/wadou/wiki_pictures/master/b00d2eda-cdfa-4e14-a3c8-7749bdddff49.jpg" />
+默认安装下，会将setuptools、pip、wheel安装到隔离环境中。</p>
+<h2 id="virtualenv_2">激活virtualenv环境</h2>
+<p>进入隔离环境目录，执行如下即激活隔离环境</p>
+<div class="hlcode"><pre><span class="n">activate</span>
+</pre></div>
+
+
+<p>如下图，可以通过pip list看到当前隔离环境已安装了哪些软件
+<img alt="48be61cc-a1ca-4f9e-a13f-262d253d6bf5" src="https://raw.githubusercontent.com/wadou/wiki_pictures/master/48be61cc-a1ca-4f9e-a13f-262d253d6bf5.jpg" /></p>
+<h2 id="virtualenv_3">退出virtualenv环境</h2>
+<p>执行如下命令即可退出隔离环境</p>
+<div class="hlcode"><pre><span class="n">deactivate</span>
+</pre></div>
+
+
+<h2 id="pycharmvirtualenv">pycharm中指定virtualenv</h2>
+<p>pycharm是一个出色的python开发IDE，在创建project时可以方便的指定隔离环境。参考<a href="">这里</a></p>
+    </div>
+    <div id="footer">
+      <span>
+        <p>Copyright © 2016 .
+        Powered by <a href="https://wadou.github.io/" target="_blank">wadou</a>.</p>
+        <p>Site Generated 2016-07-10 11:28:17</p>
+      </span>
+    </div>
+  </body>
+</html>
