@@ -2,10 +2,9 @@
 title: "virtualenv的使用"
 layout: page
 date: 2016-07-10 09:52
-updated: 2016-07-03 09:52
+updated: 2016-07-10 09:52
 tag: 
   - virtualenv
-  - pycharm
 ---
 
 [TOC]
@@ -30,10 +29,11 @@ virtualenv -h
 ```
 如下图
 ![76536961-a9dc-467c-96d2-3bd0a525385c](https://raw.githubusercontent.com/wadou/wiki_pictures/master/76536961-a9dc-467c-96d2-3bd0a525385c.png)
+
 这里关注如下几个参数
-* **-p** : 如果当前系统安装了多个版本的python环境，可以使用该参数指定virtualenv环境使用的python版本，帮助中可以看到默认的python版本。
-* **--no-site-packages** : 创建的virtualenv环境不使用系统python环境的安装包，这个选项是默认的。
-* **--system-site-packages** ：创建的virtualenv环境使用系统python环境的安装包。
+*  **-p** : 如果当前系统安装了多个版本的python环境，可以使用该参数指定virtualenv环境使用的python版本，帮助中可以看到默认的python版本。
+*  **--no-site-packages** : 创建的virtualenv环境不使用系统python环境的安装包，这个选项是默认的。
+*  **--system-site-packages** ：创建的virtualenv环境使用系统python环境的安装包。
 
 
 
@@ -45,6 +45,7 @@ virtualenv test
 ```
 如下图
 ![b00d2eda-cdfa-4e14-a3c8-7749bdddff49](https://raw.githubusercontent.com/wadou/wiki_pictures/master/b00d2eda-cdfa-4e14-a3c8-7749bdddff49.jpg)
+
 默认安装下，会将setuptools、pip、wheel安装到隔离环境中。
 
 ## 激活virtualenv环境 ##

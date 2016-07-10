@@ -4,7 +4,7 @@ layout: page
 date: 2016-07-10 10:52
 updated: 2016-07-10 10:52
 tag: 
-  - pycharm
+  - virtualenv
 ---
 
 [TOC]
