@@ -62,4 +62,4 @@ deactivate
 ```
 
 ## pycharm中指定virtualenv ##
-pycharm是一个出色的python开发IDE，在创建project时可以方便的指定隔离环境。参考[这里]()
+pycharm是一个出色的python开发IDE，在创建project时可以方便的指定隔离环境。参考[这里](https://wadou.github.io/wiki/Tool/pycharm.html#projectvirtualenv)
